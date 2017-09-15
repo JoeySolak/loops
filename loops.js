@@ -1,18 +1,18 @@
-function loopOne(time){
+function loopOne(Time){
+let time = 30;
 while(time > 0){
-  if(time % 5 == 0)
-  console.log("AHHHHHHH "+time+" seconds left!");
+  if(time %5 == 0){
+
+  console.log("AHHHHHH "+time+" seconds left!");
 }
 else{
-  console.log(time+" seconds left.");
+  console.log(time+" seconds lef.");
   time = time - 1;
-}
 console.log("Done Son!");
 }
-
-function loopTwo(){
-
-
+function loopTwo(number,power){
+for(let sum = 0; sum<=power; sum++)
+console.log(number);
 }
 
 function loopThree(){
