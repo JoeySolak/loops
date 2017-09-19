@@ -3,29 +3,31 @@ let time = 30;
 while(time > 0){
   if(time %5 == 0){
 
-  console.log("AHHHHHH" +time+ "seconds left!");
+  console.log("AHHHHHH" + time + "seconds left!");
 }
 else{
-  console.log(time+ "seconds left.");
+  console.log(time + "seconds left.");
+}
   time = time - 1;
+}
 console.log("Done Son!");
 }
+
 function loopTwo(number,power){
-for(let sum = 0; sum<=power; sum++)
-console.log(number);
+let sum=0;
+for(let p= 0; p<=power; p++){
+sum = sum + Math.pow(number,p);
+}
+return sum
 }
 
-function loopThree(number,symbol){
-let sum = 0
-for (let p = 0; p<power;p++)
-sum= sum + math+pow(number,p);
-return sum;
+function loopThree(symbol,number){
 
-for(let s=1; s<=number; s++){
-  console.log();
-}
-let lasttime=lasttime + symbol;
+  let lasttime="";
+for(let s=0; s<=number; s++){
+lasttime=lasttime+symbol;
 console.log(lasttime);
+}
 }
 
 function main(){
